@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+header{
+    display: flex;
+    height: 80px;
+    background-color: #152237;
+}
+.logonav{
+    width: 84px;
+    height: 31px;
+    margin-top: 25px;
+    margin-left: 98px;
+}
+.formnav{
+    width: auto;
+    color: #FFFFFF;
+    margin-left: 168px;
+    margin-top: 31px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.head-2{
+    display: flex;
+    width: 477px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 143px;
+    border: solid 1px white;
+    border-radius: 6px;
+    background-color: #152237;
+}
+input{
+    background-color: transparent;
+    border: 0;
+}
+.lesbtn{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 101px;
+    margin-left: 220px;
+}
+.connav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin-right: 19px;
+    color: #152237;
+}
+.insnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(95.98deg, #44DD8A 8.7%, #15B7E2 100%);
+    border-radius: 6px;
+    color: #152237;
+}
+.backban{
+    height: 451px;
+    background-image: url(../Klivio/ressources/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-weight: 800;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.sh1{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    margin-top: 22px;
+}
+.bannière{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 451px;
+    background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%);
+
+}
+
+
+.Lesformationspopulaires{
+    background-color: #FFFFFF;
+    height: 632px;
+}
+.lesdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 34px;
+}
+.pop{
+    margin-top: 30px;
+    margin-left: 97px;
+    font-weight: 800;
+    font-size: 36px;
+}
+.formation{
+    width: 307px;
+    height: 362px;
+    margin-top: 34px;
+    margin-left: 100px;
+}
+.img-course{
+    width: 305px;
+    height: 206px;
+
+}
+h3{
+    margin-top: 21px;
+    margin-bottom: 11px;
+}
+.prix{
+    position: relative;
+    z-index: 1;
+    top: -20px;
+    left: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 31.58px;
+    background-color: #152237;
+    color: #FFFFFF;
+    border-radius: 93px;
+}
+.etoile{
+    margin-top: 5px;
+    margin-bottom: 10.8px;
+}
+
+.btnpop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 40px;
+    margin-left: 727px;
+    margin-top: 43px;
+    background-color: #152237;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.formationrécente{
+    background-color: #152237;
+    height: 632px;
+}
+.ree{
+    padding-top: 30px;
+    margin-left: 97px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.formationree{
+    width: 307px;
+    height: 362px;
+    margin-top: 34px;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+.prixree{
+    position: relative;
+    z-index: 1;
+    top: -20px;
+    left: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 31.58px;
+    background-color:#FFFFFF;
+    color:#152237;
+    border-radius: 93px;
+}
+.pn{
+    font-weight: 700;
+    font-size: 20px;
+}
+.pb{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 7px;
+    letter-spacing: -1.5%;
+    text-decoration: line-through;
+}
+.btnree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 40px;
+    margin-left: 727px;
+    margin-top: 43px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #152237;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.avis{
+    height: 597px;
+
+}
+.tittreavis{
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.lesavis{
+    display: flex;
+    flex-direction: row;
+    margin-top: 66px;
+    margin-left: 150px;
+}
+.avisclient1{
+    width: 689px;
+    height: 306px;
+    margin-right: 33px;
+
+}
+.imgavis{
+    border-radius: 50%;
+}
+
+
+
+.aventages{
+    background-color: #F5F5F5;
+    height: 641px;
+}
