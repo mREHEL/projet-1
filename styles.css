@@ -68,7 +68,7 @@ input{
 }
 .backban{
     height: 451px;
-    background-image: url(../Klivio/ressources/bg-header.png);
+    background-image: url(../projet-1/ressources/bg-header.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -258,7 +258,57 @@ h3{
 
 
 
-.aventages{
+.avantages{
+    display: flex;
+    flex-direction: row;
     background-color: #F5F5F5;
     height: 641px;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 79px;
+    margin-left: 98px;
+}
+.tittreaven{
+    
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+ul{
+    margin-top: 43px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: -1.5%;
+}
+.un{
+    list-style-image: url(../projet-1/ressources/arrow-up-right.svg);
+}
+.de{
+    list-style-image: url(../projet-1/ressources/edit-01.svg);
+}
+.tr{
+    list-style-image: url(../projet-1/ressources/download-02.svg);
+}
+.qu{
+    list-style-image: url(../projet-1/ressources/star-02.svg);
+}
+.ci{
+    list-style-image: url(../projet-1/ressources/clock-backward.svg);
+}
+.si{
+    list-style-image: url(../projet-1/ressources/annotation-typing.svg);
+}
+li{
+    padding-left: 25px;
+}
+.imgaven{
+    width: 727px;
+    height: 472px;
+}
+.plcimg{
+    margin-top: 76px;
+    margin-left: 71px;
 }
