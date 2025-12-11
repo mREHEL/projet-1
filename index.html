@@ -159,7 +159,7 @@
         <section class="avantages">
             <div class="contenu">
             <h2 class="tittreaven">Les avantages Klivio</h2>
-            <ul>
+            <ul class="listeaven">
                 <li class="un">Suivi de sa progression</li>
                 <li class="de">Exercices et QCM pour la mise en pratique</li>
                 <li class="tr">Possibilité de télécharger/imprimer les formations</li>
@@ -173,27 +173,52 @@
             </div> 
         </section>
 
-        <section class="avantage formation">
-            <img src="" alt="Bureau avec femme qui travaille">
-            <h2>Créez vos formations avec Klivio</h2>
+        <section class="avantageformation">
+            <div class="plcimgfo">
+            <img class="imgcree" src="../projet-1/ressources/become-author.png" alt="Bureau avec femme qui travaille">
+            </div>
             <div class="icones">
-
+                <h2 class="tittrecree">Créez vos formations avec Klivio</h2>
+                <ul class="listecree">
+                    <li class="unfo">Commission unique, au pourcentage sur les ventes</li>
+                    <li class="defo">Mise en avant sur la plateforme</li>
+                    <li class="trfo">Contrôle total sur le cours : contenu, prix</li>
+                    <li class="cifo">Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</li>
+                    <li class="qufo">Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</li>
+                </ul>
             </div>
-            <p>Commission unique, au pourcentage sur les ventes <br> Mise en avant sur la plateforme <br> Contrôle total sur le cours : contenu, prix br Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc <br> Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</p>
         </section>
 
-        <section class="a propos de Klivio">
+        <section class="aproposdeKlivio">
+            <div class="groupe">
             <div class="group">
-                <h2>À propos de Klivio</h2>
-                <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous nous engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail. <br> Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité  écessaire pour explorer divers sujets. La transparence est au cœur de notre démarche, garantissant une clarté totale sur les formations que les instructeurs proposent. Ensemble, ces valeurs forment le socle d'une  ducation enrichissante et équitable, guidant notre mission d'offrir des pportunités d'apprentissage de qualité</p>
+                <h2 class="tittreapr">À propos de Klivio</h2>
+                <br>
+                <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous nous engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail. <br> <br> Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité  écessaire pour explorer divers sujets. La transparence est au cœur de notre démarche, garantissant une clarté totale sur les formations que les instructeurs proposent. Ensemble, ces valeurs forment le socle d'une  ducation enrichissante et équitable, guidant notre mission d'offrir des pportunités d'apprentissage de qualité</p>
             </div>
+        </div>
             <div class="bleu">
-                <img src="" alt="logo Klivio">
+                <img src="../projet-1/ressources/logo.png" alt="logo Klivio">
             </div>
         </section>
 
-        <form action="">
-
+       <form class="contact">
+        <h2>nous contacter</h2>
+        <div class="nomemail">
+            <div class="nom">
+                <input type="text" id="name" name="name" placeholder="Nom" required>
+                <div class="error" id="nameError"></div>
+            </div>
+            <div class="email">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <div class="error" id="emailError"></div>
+            </div>
+            </div>
+            <div>
+                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                <div class="error" id="messageError"></div>
+            </div>
+            <button type="submit">Envoyer</button>
         </form>
     </main>
     <footer>

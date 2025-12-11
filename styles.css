@@ -13,14 +13,14 @@ header{
     width: 84px;
     height: 31px;
     margin-top: 25px;
-    margin-left: 98px;
+    margin-left: 90px;
 }
 .formnav{
-    width: auto;
     color: #FFFFFF;
-    margin-left: 168px;
+    margin-left: 90px;
     margin-top: 31px;
     font-size: 15px;
+    width: 200px;
 }
 a{
     text-decoration: none;
@@ -30,7 +30,7 @@ a{
     width: 477px;
     height: 40px;
     margin-top: 20px;
-    margin-left: 143px;
+    margin-left: 120px;
     border: solid 1px white;
     border-radius: 6px;
     background-color: #152237;
@@ -43,7 +43,7 @@ input{
     display: flex;
     margin-top: 20px;
     margin-right: 101px;
-    margin-left: 220px;
+    margin-left: 150px;
 }
 .connav{
     display: flex;
@@ -66,6 +66,9 @@ input{
     border-radius: 6px;
     color: #152237;
 }
+
+
+
 .backban{
     height: 451px;
     background-image: url(../projet-1/ressources/bg-header.png);
@@ -104,6 +107,7 @@ h1{
 }
 
 
+
 .Lesformationspopulaires{
     background-color: #FFFFFF;
     height: 632px;
@@ -115,7 +119,7 @@ h1{
 }
 .pop{
     margin-top: 30px;
-    margin-left: 97px;
+    margin-left: 45px;
     font-weight: 800;
     font-size: 36px;
 }
@@ -123,7 +127,7 @@ h1{
     width: 307px;
     height: 362px;
     margin-top: 34px;
-    margin-left: 100px;
+    margin-left: 45px;
 }
 .img-course{
     width: 305px;
@@ -159,8 +163,8 @@ h3{
     align-items: center;
     width: 225px;
     height: 40px;
-    margin-left: 727px;
     margin-top: 43px;
+    margin-left: 42%;
     background-color: #152237;
     border-radius: 6px;
     color: #FFFFFF;
@@ -175,7 +179,7 @@ h3{
 }
 .ree{
     padding-top: 30px;
-    margin-left: 97px;
+    margin-left: 45px;
     font-weight: 800;
     font-size: 36px;
     color: #FFFFFF;
@@ -184,7 +188,7 @@ h3{
     width: 307px;
     height: 362px;
     margin-top: 34px;
-    margin-left: 100px;
+    margin-left: 45px;
     color: #FFFFFF;
 }
 .prixree{
@@ -218,7 +222,7 @@ h3{
     align-items: center;
     width: 225px;
     height: 40px;
-    margin-left: 727px;
+    margin-left: 42%;
     margin-top: 43px;
     background-color: #FFFFFF;
     border-radius: 6px;
@@ -268,7 +272,7 @@ h3{
     display: flex;
     flex-direction: column;
     margin-top: 79px;
-    margin-left: 98px;
+    margin-left: 90px;
 }
 .tittreaven{
     
@@ -276,7 +280,7 @@ h3{
     font-size: 40px;
     text-transform: uppercase;
 }
-ul{
+.listeaven{
     margin-top: 43px;
     font-weight: 400;
     font-size: 24px;
@@ -305,10 +309,134 @@ li{
     padding-left: 25px;
 }
 .imgaven{
-    width: 727px;
-    height: 472px;
+    width: 630px;
+    height: 430px;
 }
 .plcimg{
     margin-top: 76px;
-    margin-left: 71px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+
+.avantageformation{
+    display: flex;
+    flex-direction: row;
+    height: 641px;
+    background-color: #44DD8A;
+}
+.imgcree{
+    width: 630px;
+    height: 430px;
+}
+.plcimgfo{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 79px;
+    width: 50%;
+}
+.tittrecree{
+    font-weight: 900;
+    font-style: Black;
+    font-size: 35px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+}
+.listecree{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: -1.5%;
+    margin-top: 39px;
+}
+.unfo{
+    list-style-image: url(../projet-1/ressources/coin-hand.svg);
+}
+.defo{
+    list-style-image: url(../projet-1/ressources/heart.svg);
+}
+.trfo{
+    list-style-image: url(../projet-1/ressources/pencil-01.svg);
+}
+.cifo{
+    list-style-image: url(../projet-1/ressources/settings.svg);
+}
+.qufo{
+    list-style-image: url(../projet-1/ressources/user-profile-square.svg);
+}
+
+
+.aproposdeKlivio{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.groupe{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 5%;
+}
+.tittreapr{
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+
+}
+.bleu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #152237;
+    width: 50%;
+}
+
+
+
+.contact{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nomemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nom{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 500px;
+    background-color: #152237;
+    margin-right: 100px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 500px;
+    background-color: #152237;
 }
