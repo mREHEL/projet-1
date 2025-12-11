@@ -16,7 +16,7 @@
             <a class="formnav" href="Les formation populaires">Les formation</a>
             <div class="head-2">
                 <input placeholder="Rechercher" type="search" />
-                <i class="fa-solid fa-magnifying-glass fa-xs" style="color: #ffffff;"></i>            
+                <img class="loup" src="../projet-1/ressources/icone.svg" alt="">
             </div>
             <div class="lesbtn">
                 <a class="connav" href="#">Connexion</a>
@@ -203,40 +203,54 @@
         </section>
 
        <form class="contact">
-        <h2>nous contacter</h2>
+        <h2 class="tittrecontact">nous contacter</h2>
+        <div class="ligne"></div>
         <div class="nomemail">
             <div class="nom">
-                <input type="text" id="name" name="name" placeholder="Nom" required>
-                <div class="error" id="nameError"></div>
+                <input type="text" name="name" placeholder="Nom" required>
             </div>
             <div class="email">
-                <input type="email" id="email" name="email" placeholder="Email" required>
-                <div class="error" id="emailError"></div>
+                <input type="email" name="email" placeholder="Email" required>
             </div>
             </div>
-            <div>
-                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
-                <div class="error" id="messageError"></div>
+            <div class="message">
+                <input type="text" name="message" placeholder="Votre message" required>
             </div>
-            <button type="submit">Envoyer</button>
+            <a class="btncon" href="#">Envoyer</a>
         </form>
+        <div class="ligne2"></div>
     </main>
     <footer>
-        <div class="coul"></div>
-        <img src="" alt="logo Klivio">
-        <div class="Mention légales">
-
+        <div class="coul">
+        <img class="logofoo" src="../projet-1/ressources/logo.png" alt="logo Klivio">
+        <div class="Mentionlégales">
+            <h3>Mentions légales</h3>
+            <ul>
+                <li>CGU</li>
+                <li>CGV</li>
+                <li>FAQ</li>
+                <li>Contact</li>
+            </ul>
         </div>
         <div class="Coordonnées">
-
+            <h3>Coordonnées</h3>
+            <ul>
+                <li>1 place république, 75003 Paris</li>
+                <li>01.02.03.04.05</li>
+                <li>contact@klivio.fr</li>
+            </ul>
         </div>
-        <a href="">Connexion</a>
-        <a href="">Inscription</a>
+        <div class="lesbtn2">
+            <a class="connav" href="#">Connexion</a>
+            <a class="insnav" href="#">Inscription</a>
+        </div>
+        </div>
         <hr>
-        <p>© Klivio -  2025</p>
+        <div class="fin">
+        <p>© Klivio - 2025</p>
         <div class="réseaux sociaux">
             <p>Suivez - nous</p>
-
+        </div>
         </div>
     </footer>
 </body>

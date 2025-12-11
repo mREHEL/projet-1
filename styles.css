@@ -27,6 +27,7 @@ a{
 }
 .head-2{
     display: flex;
+    align-items: center;
     width: 477px;
     height: 40px;
     margin-top: 20px;
@@ -34,6 +35,12 @@ a{
     border: solid 1px white;
     border-radius: 6px;
     background-color: #152237;
+    padding-left: 10px;
+}
+.loup{
+    height: 30px;
+    width: 30px;
+    margin-left: 200px;
 }
 input{
     background-color: transparent;
@@ -419,6 +426,22 @@ li{
     align-items: center;
     flex-direction: column;
 }
+.tittrecontact{
+    font-weight: 900;
+    font-style: Black;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ligne{
+    height: 1px;
+    width: 300px;
+    background-color: #44DD8A;
+    margin-bottom: 30px;
+}
 .nomemail{
     display: flex;
     flex-direction: row;
@@ -426,17 +449,85 @@ li{
     align-items: center;
 }
 .nom{
+    padding-left: 10px;
     display: flex;
     align-items: center;
     height: 40px;
     width: 500px;
     background-color: #152237;
     margin-right: 100px;
+    color: #FFFFFF;
 }
 .email{
+    padding-left: 10px;
     display: flex;
     align-items: center;
     height: 40px;
     width: 500px;
     background-color: #152237;
+    color: #FFFFFF;
+}
+.message{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    height: 200px;
+    width: 1120px;
+    background-color: #152237;
+}
+.btncon{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #152237;
+    background-color: #44DD8A;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+.ligne2{
+    width: 100%;
+    height: 15px;
+    background: linear-gradient(90.01deg, #44DD8A 2.38%, #18A0FB 100%);
+    margin-top: 50px;
+}
+
+
+footer{
+    color: #FFFFFF;
+    height: 450px;
+    background-color: #152237;
+}
+.logofoo{
+    height: 80px;
+    width: 200px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.coul{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Mentionlégales{
+    margin-top: 60px;
+}
+.Coordonnées{
+    margin-top: 60px;
+}
+.lesbtn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    height: 90px;
+}
+.fin{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
 }
