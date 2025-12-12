@@ -37,6 +37,7 @@ a{
     background-color: #152237;
     padding-left: 10px;
 }
+
 .loup{
     height: 30px;
     width: 30px;
@@ -627,12 +628,16 @@ ul{
         margin-top: 50px; /* Espace entre les cartes */
     }
     
-    .btnpop, .btnree {
+    .btnpop {
         margin-left: auto;
         margin-right: auto; /* Centrage du bouton */
         margin-bottom: 30px;
     }
-
+    .btnree{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
     /* 5. Avis */
     .avis {
         height: auto;
@@ -681,27 +686,35 @@ ul{
     .icones{
         width: auto;
     }
-    .reverse{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .tittreaven, .tittrecree {
-        font-size: 26px;
+    .tittreaven {
+        font-size: 30px;
         text-align: center;
+        margin-right: 30px;
     }
-
+    .tittrecree{
+        text-align: center;
+        font-size: 28px;
+        margin-right: 30px;
+    }
     .listeaven, .listecree {
         font-size: 18px;
         line-height: 1.5;
     }
 
-    .imgaven, .imgcree {
+    .imgaven {
         width: 90%; /* Image fit screen */
         height: auto;
         margin: 20px auto;
         display: block;
     }
-
+    .imgcree{
+        display: none;
+    }
+    .imgmobile{
+        width: 90%; /* Image fit screen */
+        height: auto;
+        display: block;
+    }
     .plcimg, .plcimgfo {
         margin: 0;
     }
@@ -712,11 +725,18 @@ ul{
         height: auto;
     }
 
-    .groupe, .bleu {
+    .groupe {
         width: 100%;
         padding: 40px 0;
     }
-
+    .bleu{
+        height: 400px;
+        width: auto;
+    }
+    .logomobile{
+        height: 77px;
+        width: 214px;
+    }
     .group {
         width: 90%;
         margin-left: auto;
@@ -752,13 +772,13 @@ ul{
     }
 
     .ligne {
-        width: 80%;
+        display: none;    
     }
 
     /* 9. Footer */
     footer {
         height: auto;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
 
     .coul {
@@ -772,23 +792,23 @@ ul{
         margin: 30px auto 0 auto;
     }
 
-    .Mentionlégales, .Coordonnées, .lesbtn2 {
+    .Mentionlégales, .Coordonnées  {
         margin-top: 30px;
+
         margin-right: 0;
         height: auto;
         gap: 15px;
     }
-
+    .lesbtn2{
+        display: none;
+    }
     .fin {
-        flex-direction: column;
-        margin-left: 0;
-        align-items: center;
-        gap: 20px;
+        display: none;
     }
     
     hr {
-        margin: 20px auto;
-    }
+    display: none;    
+}
     
     /* Correction des listes pour qu'elles restent lisibles */
     ul li {
