@@ -5,21 +5,22 @@
 }
 header{
     display: flex;
-    height: 80px;
+    height: 8.89vh; /* 80px */
     background-color: #152237;
 }
 .logonav{
+    /* Image logo : dimensions conservées en px */
     width: 84px;
     height: 31px;
-    margin-top: 25px;
-    margin-left: 90px;
+    margin-top: 2.78vh; /* 25px */
+    margin-left: 6.25vw; /* 90px */
 }
 .formnav{
     color: #FFFFFF;
-    margin-left: 90px;
-    margin-top: 31px;
-    font-size: 15px;
-    width: 200px;
+    margin-left: 6.25vw; /* 90px */
+    margin-top: 3.44vh; /* 31px */
+    font-size: 1.04vw; /* 15px */
+    width: 13.89vw; /* 200px */
 }
 a{
     text-decoration: none;
@@ -28,20 +29,21 @@ a{
 .head-2{
     display: flex;
     align-items: center;
-    width: 477px;
-    height: 40px;
-    margin-top: 20px;
-    margin-left: 120px;
+    width: 33.13vw; /* 477px */
+    height: 4.44vh; /* 40px */
+    margin-top: 2.22vh; /* 20px */
+    margin-left: 8.33vw; /* 120px */
     border: solid 1px white;
-    border-radius: 6px;
+    border-radius: 0.42vw; /* 6px */
     background-color: #152237;
-    padding-left: 10px;
+    padding-left: 0.69vw; /* 10px */
 }
 
 .loup{
+    /* Icône : dimensions conservées en px */
     height: 30px;
     width: 30px;
-    margin-left: 200px;
+    margin-left: 13.89vw; /* 200px */
 }
 input{
     background-color: transparent;
@@ -49,174 +51,175 @@ input{
 }
 .lesbtn{
     display: flex;
-    margin-top: 20px;
-    margin-right: 101px;
-    margin-left: 150px;
+    margin-top: 2.22vh; /* 20px */
+    margin-right: 7.01vw; /* 101px */
+    margin-left: 10.42vw; /* 150px */
 }
 .connav{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 130px;
-    height: 40px;
+    width: 9.03vw; /* 130px */
+    height: 5.44vh; /* 40px */
     background-color: #FFFFFF;
-    border-radius: 6px;
-    margin-right: 19px;
+    border-radius: 6px; /* 6px */
+    margin-right: 1.32vw; /* 19px */
     color: #152237;
 }
 .insnav{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 130px;
-    height: 40px;
+    width: 9.03vw; /* 130px */
+    height: 5.44vh; /* 40px */
     background: linear-gradient(95.98deg, #44DD8A 8.7%, #15B7E2 100%);
-    border-radius: 6px;
+    border-radius: 6px; /* 6px */
     color: #152237;
 }
 
 
 .backban{
-    height: 451px;
+    height: 50.11vh; /* 451px */
     background-image: url(../projet-1/ressources/bg-header.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3.33vw; /* 48px */
     text-transform: uppercase;
 }
 .sh1{
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 20px;
-    margin-top: 8px;
+    font-size: 1.39vw; /* 20px */
+    margin-top: 0.89vh; /* 8px */
 }
 .more{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
-    height: 40px;
-    border-radius: 6px;
+    width: 9.03vw; /* 130px */
+    height: 5.44vh; /* 40px */
+    border-radius: 0.42vw; /* 6px */
     background-color: #FFFFFF;
-    margin-top: 22px;
+    margin-top: 2.44vh; /* 22px */
 }
 .bannière{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 451px;
+    height: 50.11vh; /* 451px */
     background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%);
 }
 
 .Lesformationspopulaires{
     background-color: #FFFFFF;
-    height: 632px;
+    height: 85.22vh; /* 632px */
 }
 .lesdiv{
     display: flex;
     flex-direction: row;
-    margin-top: 34px;
+    margin-top: 3.78vh; /* 34px */
 }
 .pop{
-    margin-top: 30px;
-    margin-left: 45px;
+    margin-top: 3.33vh; /* 30px */
+    margin-left: 3.13vw; /* 45px */
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2.5vw; /* 36px */
 }
 .formation{
-    width: 307px;
-    height: 362px;
-    margin-top: 34px;
-    margin-left: 45px;
+    width: 21.32vw; /* 307px */
+    height: 40.22vh; /* 362px */
+    margin-top: 3.78vh; /* 34px */
+    margin-left: 3.13vw; /* 45px */
 }
 .img-course{
+    /* Image : dimensions conservées en px */
     width: 305px;
     height: 206px;
-
 }
 h3{
-    margin-top: 21px;
-    margin-bottom: 11px;
+    margin-top: 2.33vh; /* 21px */
+    margin-bottom: 1.22vh; /* 11px */
 }
 .prix{
     position: relative;
     z-index: 1;
-    top: -20px;
-    left: 174px;
+    top: -2.22vh; /* -20px */
+    left: 12.08vw; /* 174px */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 31.58px;
+    width: 8.33vw; /* 120px */
+    height: 3.51vh; /* 31.58px */
     background-color: #152237;
     color: #FFFFFF;
-    border-radius: 93px;
+    border-radius: 6.46vw; /* 93px */
 }
 .etoile{
-    margin-top: 5px;
-    margin-bottom: 10.8px;
+    /* Icône probable, marges converties */
+    margin-top: 0.56vh; /* 5px */
+    margin-bottom: 1.2vh; /* 10.8px */
 }
 
 .btnpop{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 225px;
-    height: 40px;
-    margin-top: 43px;
+    width: 15.63vw; /* 225px */
+    height: 5.44vh; /* 40px */
+    margin-top: 19.78vh; /* 43px */
     margin-left: 42%;
     background-color: #152237;
-    border-radius: 6px;
+    border-radius: 6px; /* 6px */
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1.04vw; /* 15px */
 }
 
 
 .formationrécente{
     background-color: #152237;
-    height: 632px;
+    height: 85.22vh; /* 632px */
 }
 .ree{
-    padding-top: 30px;
-    margin-left: 45px;
+    padding-top: 3.33vh; /* 30px */
+    margin-left: 3.13vw; /* 45px */
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2.5vw; /* 36px */
     color: #FFFFFF;
 }
 .formationree{
-    width: 307px;
-    height: 362px;
-    margin-top: 34px;
-    margin-left: 45px;
+    width: 21.32vw; /* 307px */
+    height: 40.22vh; /* 362px */
+    margin-top: 3.78vh; /* 34px */
+    margin-left: 3.13vw; /* 45px */
     color: #FFFFFF;
 }
 .prixree{
     position: relative;
     z-index: 1;
-    top: -20px;
-    left: 174px;
+    top: -2.22vh; /* -20px */
+    left: 12.08vw; /* 174px */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 31.58px;
+    width: 8.33vw; /* 120px */
+    height: 3.51vh; /* 31.58px */
     background-color:#FFFFFF;
     color:#152237;
-    border-radius: 93px;
+    border-radius: 6.46vw; /* 93px */
 }
 .pn{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.39vw; /* 20px */
 }
 .pb{
     font-weight: 400;
-    font-size: 10px;
-    line-height: 7px;
+    font-size: 0.69vw; /* 10px */
+    line-height: 0.78vh; /* 7px */
     letter-spacing: -1.5%;
     text-decoration: line-through;
 }
@@ -224,41 +227,41 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 225px;
-    height: 40px;
+    width: 15.63vw; /* 225px */
+    height: 5.44vh; /* 40px */
     margin-left: 42%;
-    margin-top: 43px;
+    margin-top: 19.78vh; /* 43px */
     background-color: #FFFFFF;
-    border-radius: 6px;
+    border-radius: 6px; /* 6px */
     color: #152237;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1.04vw; /* 15px */
 }
 
 .avis{
-    height: 597px;
-
+    height: 66.33vh; /* 597px */
 }
 .tittreavis{
     display: flex;
     justify-content: center;
-    margin-top: 58px;
+    margin-top: 6.44vh; /* 58px */
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.78vw; /* 40px */
     text-transform: uppercase;
 }
 .lesavis{
     display: flex;
     flex-direction: row;
-    margin-top: 66px;
-    margin-left: 150px;
+    margin-top: 7.33vh; /* 66px */
+    margin-left: 10.42vw; /* 150px */
 }
 .avisclient1{
-    width: 689px;
-    height: 306px;
-    margin-right: 33px;
+    width: 47.85vw; /* 689px */
+    height: 34vh; /* 306px */
+    margin-right: 2.29vw; /* 33px */
 }
 .imgavis{
+    /* Image : on ne touche pas */
     border-radius: 50%;
 }
 
@@ -266,25 +269,24 @@ h3{
     display: flex;
     flex-direction: row;
     background-color: #F5F5F5;
-    height: 641px;
+    height: 80.22vh; /* 641px */
 }
 .contenu{
     display: flex;
     flex-direction: column;
-    margin-top: 79px;
-    margin-left: 90px;
+    margin-top: 8.78vh; /* 79px */
+    margin-left: 6.25vw; /* 90px */
 }
 .tittreaven{
-    
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.78vw; /* 40px */
     text-transform: uppercase;
 }
 .listeaven{
-    margin-top: 43px;
+    margin-top: 4.78vh; /* 43px */
     font-weight: 400;
-    font-size: 24px;
-    line-height: 50px;
+    font-size: 1.67vw; /* 24px */
+    line-height: 5.56vh; /* 50px */
     letter-spacing: -1.5%;
 }
 .un{
@@ -306,55 +308,57 @@ h3{
     list-style-image: url(../projet-1/ressources/annotation-typing.svg);
 }
 li{
-    padding-left: 25px;
+    padding-left: 1.74vw; /* 25px */
 }
 .imgaven{
+    /* Image : dimensions conservées en px */
     width: 630px;
     height: 430px;
 }
 .plcimg{
-    margin-top: 76px;
-    margin-right: 40px;
-    margin-left: 10px;
+    margin-top: 8.44vh; /* 76px */
+    margin-right: 2.78vw; /* 40px */
+    margin-left: 0.69vw; /* 10px */
 }
 
 
 .avantageformation{
     display: flex;
     flex-direction: row;
-    height: 641px;
+    height: 80.22vh; /* 641px */
     background-color: #44DD8A;
 }
 .imgcree{
+    /* Image : dimensions conservées en px */
     width: 630px;
     height: 430px;
 }
 .plcimgfo{
-    margin-top: 100px;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-top: 11.11vh; /* 100px */
+    margin-left: 2.08vw; /* 30px */
+    margin-right: 0.69vw; /* 10px */
 }
 .icones{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 79px;
+    margin-left: 2.78vw; /* 40px */
+    margin-top: 8.78vh; /* 79px */
     width: 50%;
 }
 .tittrecree{
     font-weight: 900;
     font-style: Black;
-    font-size: 35px;
-    line-height: 36px;
+    font-size: 2.43vw; /* 35px */
+    line-height: 4vh; /* 36px */
     letter-spacing: -1.5%;
     text-transform: uppercase;
 }
 .listecree{
     font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 1.39vw; /* 20px */
+    line-height: 4.44vh; /* 40px */
     letter-spacing: -1.5%;
-    margin-top: 39px;
+    margin-top: 4.33vh; /* 39px */
 }
 .unfo{
     list-style-image: url(../projet-1/ressources/coin-hand.svg);
@@ -376,7 +380,7 @@ li{
 .aproposdeKlivio{
     display: flex;
     flex-direction: row;
-    height: 600px;
+    height: 80.67vh; /* 600px */
     background-color: #F5F5F5;
     width: 100%;
 }
@@ -390,14 +394,14 @@ li{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 600px;
+    width: 41.67vw; /* 600px */
     margin-left: 5%;
 }
 .tittreapr{
     font-weight: 900;
     font-style: Black;
-    font-size: 40px;
-    line-height: 36px;
+    font-size: 2.78vw; /* 40px */
+    line-height: 4vh; /* 36px */
     letter-spacing: -1.5%;
     text-transform: uppercase;
 }
@@ -410,7 +414,7 @@ li{
 }
 
 .contact{
-    height: 500px;
+    height: 55.56vh; /* 500px */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -418,18 +422,18 @@ li{
 .tittrecontact{
     font-weight: 900;
     font-style: Black;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 2.08vw; /* 30px */
+    line-height: 4vh; /* 36px */
     letter-spacing: -1.5%;
     text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 3.33vh; /* 30px */
+    margin-bottom: 3.33vh; /* 30px */
 }
 .ligne{
-    height: 1px;
-    width: 300px;
+    height: 1px; /* Borders often stay 1px */
+    width: 20.83vw; /* 300px */
     background-color: #44DD8A;
-    margin-bottom: 30px;
+    margin-bottom: 3.33vh; /* 30px */
 }
 .nomemail{
     display: flex;
@@ -438,94 +442,95 @@ li{
     align-items: center;
 }
 .nom{
-    padding-left: 10px;
+    padding-left: 0.69vw; /* 10px */
     display: flex;
     align-items: center;
-    height: 40px;
-    width: 500px;
+    height: 4.44vh; /* 40px */
+    width: 34.72vw; /* 500px */
     background-color: #152237;
-    margin-right: 100px;
+    margin-right: 6.94vw; /* 100px */
     color: #FFFFFF;
 }
 .email{
-    padding-left: 10px;
+    padding-left: 0.69vw; /* 10px */
     display: flex;
     align-items: center;
-    height: 40px;
-    width: 500px;
+    height: 4.44vh; /* 40px */
+    width: 34.72vw; /* 500px */
     background-color: #152237;
     color: #FFFFFF;
 }
 .message{
     display: flex;
     justify-content: flex-start;
-    margin-top: 50px;
-    height: 200px;
-    width: 1120px;
+    margin-top: 5.56vh; /* 50px */
+    height: 22.22vh; /* 200px */
+    width: 77.78vw; /* 1120px */
     background-color: #152237;
 }
 .btncon{
-    height: 40px;
-    width: 300px;
+    height: 5.44vh; /* 40px */
+    width: 20.83vw; /* 300px */
     display: flex;
     justify-content: center;
     align-items: center;
     color: #152237;
     background-color: #44DD8A;
-    border-radius: 6px;
-    margin-top: 40px;
+    border-radius: 6px; /* 6px */
+    margin-top: 4.44vh; /* 40px */
 }
 
 .ligne2{
     width: 100%;
-    height: 15px;
+    height: 1.67vh; /* 15px */
     background: linear-gradient(90.01deg, #44DD8A 2.38%, #18A0FB 100%);
-    margin-top: 50px;
+    margin-top: 5.56vh; /* 50px */
 }
 
 footer{
     color: #FFFFFF;
-    height: 400px;
+    height: 44.44vh; /* 400px */
     background-color: #152237;
 }
 .logofoo{
+    /* Image logo : dimensions conservées en px */
     height: 80px;
     width: 200px;
-    margin-top: 70px;
-    margin-left: 70px;
+    margin-top: 7.78vh; /* 70px */
+    margin-left: 4.86vw; /* 70px */
 }
 
 .coul{
-    height: 250px;
+    height: 27.78vh; /* 250px */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .Mentionlégales{
-    margin-top: 60px;
+    margin-top: 6.67vh; /* 60px */
 }
 .Coordonnées{
-    margin-top: 60px;
+    margin-top: 6.67vh; /* 60px */
 }
 .lesbtn2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 70px;
-    height: 90px;
-    margin-right: 20px;
+    margin-top: 7.78vh; /* 70px */
+    height: 13vh; /* 90px */
+    margin-right: 1.39vw; /* 20px */
 }
 .fin{
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 5.56vh; /* 50px */
     justify-content: space-between;
     width: 90%;
-    margin-left: 80px;
+    margin-left: 5.56vw; /* 80px */
 }
 .espace{
-    margin-left: 15px;
+    margin-left: 1.04vw; /* 15px */
 }
 .réseauxsociaux{
     display: flex;
@@ -538,7 +543,7 @@ hr{
     background: #44DD8A;
     border: 0px;
     width: 90%;
-    margin-left: 80px;
+    margin-left: 5.56vw; /* 80px */
 }
 ul{
     list-style-type: none;
@@ -563,28 +568,24 @@ ul{
 }
 
 
-/* --- RESPONSIVE MOBILE (Max 768px / Cible 393px) --- */
 @media screen and (max-width: 768px) {
     
-    /* 1. Ajustements Généraux */
     body, html {
-        overflow-x: hidden; /* Empêche le scroll horizontal */
+        overflow-x: hidden;
         width: 100%;
     }
 
     h1 {
-        font-size: 32px; /* Réduction du titre */
+        font-size: 32px; 
         text-align: center;
     }
 
-    /* 2. Header */
     header {
         height: 80px;
         flex-direction: column;
         justify-content: center;
 
     }
-
     .logonav {
         margin: 20px;
     }
@@ -608,7 +609,6 @@ ul{
         right: 0;
     }
 
-    /* 3. Bannière */
     .backban, .bannière {
         height: 364px;
         background-size: cover;
@@ -616,19 +616,28 @@ ul{
         text-align: center;
     }
 
+
     .sh1 {
         text-align: center;
         padding: 0 10px;
+        font-size: 20PX;
     }
-
-    /* 4. Sections Formations (Populaires & Récentes) */
+    .more{
+        height: 40px;
+        width: 130px;
+        border-radius: 6px;
+    }
     .Lesformationspopulaires  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: auto;
     }
     .formationrécente{
-        height: 1850px;
+        height: 1750px;
     }
     .lesdiv {
+        display: flex;
         flex-direction: column; 
         align-items: center;
         margin-top: 0;
@@ -642,22 +651,56 @@ ul{
     }
 
     .formation, .formationree {
-        margin-left: 0;
+        display: flex;
+        flex-direction: column;
         margin-top: 50px;
+        width: auto;
+        font-size: 13px;
+        height: auto;
     }
-    
+    .prix{
+        height: 30px;
+        width: 100px;
+        margin-left: 130px;
+    }
+    .prixree{
+         height: 30px;
+        width: 100px;
+        margin-left: 130px;
+    }
+    .pn{
+        font-size: 20px;
+
+    }
+    .pb{
+        font-size: 10px;
+    }
+    .etoile{
+        height: 15px;
+        width: 100px;
+    }
+    .img-course{
+        height: 200px;
+        width: 300px;
+    }
     .btnpop {
         margin-left: auto;
         margin-right: auto; 
         margin-bottom: 30px;
-    }
+        height: 40px;
+        width: 220px;
+        font-size: 15px;
+        }
     .btnree{
         margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
+        margin-right: auto; 
+        margin-bottom: 30px;
+
+        height: 40px;
+        width: 220px;
+        font-size: 15px;
     }
 
-    /* 5. Avis */
     .avis {
         height: auto;
         padding-bottom: 40px;
@@ -688,7 +731,6 @@ ul{
     }
 
 
-    /* 6. Avantages & Création (Sections Verte et Grise) */
     .avantages, .avantageformation {
         display: flex;
         align-items: center;
@@ -703,7 +745,11 @@ ul{
         margin-left: 50px;
     }
     .icones{
-        width: auto;
+        margin-top: 40px;
+        box-sizing: border-box;
+        margin-left: 0;
+        width: 90%;
+        margin-left: 30px;
     }
     .tittreaven {
         font-size: 30px;
@@ -737,7 +783,6 @@ ul{
         margin: 0;
     }
 
-    /* 7. À propos */
     .aproposdeKlivio {
         flex-direction: column;
         height: auto;
@@ -765,13 +810,14 @@ ul{
     }
 
 
-    /* 8. Contact */
     .contact {
         height: auto;
         padding-bottom: 40px;
         width: 100%;
     }
-
+    .tittrecontact{
+        font-size: 30px;
+    }
     .nomemail {
         flex-direction: column;
         width: 100%;
@@ -788,9 +834,11 @@ ul{
     .ligne {
         display: none;    
     }
+    .btncon{
+        width: 80%;
+    }
 
 
-    /* 9. Footer */
     footer {
         height: auto;
         padding-bottom: 10px;
@@ -818,8 +866,7 @@ ul{
     }
     hr {
     display: none;    
-}
-    
+}   
     ul li {
         text-align: left; 
     }
