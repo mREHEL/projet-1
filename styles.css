@@ -553,6 +553,16 @@ ul{
     list-style-image: url(../projet-1/ressources/mail-01.svg);
 }
 
+@media screen and (min-width: 800px) {
+    .burger{
+        display: none;
+    }
+    .imgmobile{
+        display: none;
+    }
+}
+
+
 /* --- RESPONSIVE MOBILE (Max 768px / Cible 393px) --- */
 @media screen and (max-width: 768px) {
     
@@ -591,7 +601,12 @@ ul{
     .lesbtn {
         display: none;
     }
-
+    .burger{
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        right: 0;
+    }
 
     /* 3. Bannière */
     .backban, .bannière {
@@ -607,14 +622,17 @@ ul{
     }
 
     /* 4. Sections Formations (Populaires & Récentes) */
-    .Lesformationspopulaires, .formationrécente {
-        height: auto; /* Hauteur adaptative */
+    .Lesformationspopulaires  {
+        height: auto;
     }
-
+    .formationrécente{
+        height: 1850px;
+    }
     .lesdiv {
-        flex-direction: column; /* Cartes en colonne */
+        flex-direction: column; 
         align-items: center;
         margin-top: 0;
+        margin-bottom: 20px;
     }
 
     .pop, .ree {
@@ -625,19 +643,20 @@ ul{
 
     .formation, .formationree {
         margin-left: 0;
-        margin-top: 50px; /* Espace entre les cartes */
+        margin-top: 50px;
     }
     
     .btnpop {
         margin-left: auto;
-        margin-right: auto; /* Centrage du bouton */
+        margin-right: auto; 
         margin-bottom: 30px;
     }
     .btnree{
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 50px;
+        margin-top: 50px;
     }
+
     /* 5. Avis */
     .avis {
         height: auto;
@@ -665,19 +684,19 @@ ul{
     }
     
     .avisclient1 img {
-        max-width: 100%; /* Image responsive */
+        max-width: 100%;
     }
+
 
     /* 6. Avantages & Création (Sections Verte et Grise) */
     .avantages, .avantageformation {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column; /* Texte au dessus, image en dessous */
+        flex-direction: column; 
         height: auto;
         padding-bottom: 40px;
     }
-
     .contenu{
         margin-top: 40px;
         box-sizing: border-box;
@@ -700,9 +719,8 @@ ul{
         font-size: 18px;
         line-height: 1.5;
     }
-
     .imgaven {
-        width: 90%; /* Image fit screen */
+        width: 90%; 
         height: auto;
         margin: 20px auto;
         display: block;
@@ -711,7 +729,7 @@ ul{
         display: none;
     }
     .imgmobile{
-        width: 90%; /* Image fit screen */
+        width: 90%; 
         height: auto;
         display: block;
     }
@@ -724,7 +742,6 @@ ul{
         flex-direction: column;
         height: auto;
     }
-
     .groupe {
         width: 100%;
         padding: 40px 0;
@@ -743,10 +760,10 @@ ul{
         margin-right: auto;
         text-align: center;
     }
-
     .tittreapr {
         font-size: 28px;
     }
+
 
     /* 8. Contact */
     .contact {
@@ -760,41 +777,35 @@ ul{
         width: 100%;
         gap: 15px;
     }
-
     .nom, .email {
-        width: 90%; /* Champs responsive */
+        width: 90%; 
         margin-right: 0;
     }
-
     .message {
         width: 90%;
         margin-top: 15px;
     }
-
     .ligne {
         display: none;    
     }
+
 
     /* 9. Footer */
     footer {
         height: auto;
         padding-bottom: 10px;
     }
-
     .coul {
         flex-direction: column;
         height: auto;
         align-items: center;
         text-align: center;
     }
-
     .logofoo {
         margin: 30px auto 0 auto;
     }
-
     .Mentionlégales, .Coordonnées  {
         margin-top: 30px;
-
         margin-right: 0;
         height: auto;
         gap: 15px;
@@ -805,12 +816,10 @@ ul{
     .fin {
         display: none;
     }
-    
     hr {
     display: none;    
 }
     
-    /* Correction des listes pour qu'elles restent lisibles */
     ul li {
         text-align: left; 
     }
